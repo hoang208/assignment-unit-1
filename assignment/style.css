@@ -9,3 +9,85 @@
 /* Put a border around your image */
 
 /* Change the font-family of your list */
+
+body{
+    background-color: black;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+img{
+    max-width:250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black
+  }
+
+h1 {
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2 {
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+.profile{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header{
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    
+}
+.body{
+    width: 80%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    display: flex;
+}
+footer{
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 20px;
+    max-width: 500px;
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+}
+.name{
+    text-align: center;
+    text-transform: uppercase;
+}
+.fun_facts{
+  font-size: 16px;
+}
+li{
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+hr {
+height: 2px;
+background-color: black;
+border-color: black;
+}
