@@ -33,8 +33,9 @@ h1 {
 h2 {
     font-size: 32px;
     margin-top: 0;
-    margin-bottom: 15px;
-    text-align: center;
+    margin-bottom: 10px;
+    padding-left: 0.5em;
+    text-align: left;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-transform: uppercase;
 }
@@ -43,25 +44,34 @@ h2 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border: 5px solid white;
+    padding: 20px 10px;
+    background-color: #98C3AE;
 }
-.header{
+header{
     width: 80%;
     background-color: #ACECF7;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
     max-width: 500px;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
     
 }
-.body{
+main{
     width: 80%;
-    background-color: white;
+    background-color: #98BED1;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
     max-width: 500px;
     display: flex;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
 }
+
 footer{
     width: 80%;
     background-color: #ACECF7;
@@ -73,20 +83,26 @@ footer{
     text-align: center;
     font-style: italic;
     font-size: 12px;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
 }
 .name{
     text-align: center;
     text-transform: uppercase;
 }
 .fun_facts{
-  font-size: 16px;
+    font-size: 1em;
 }
+ul {
+    padding-left:1em;
+  }
 li{
-    margin-bottom: 30px;
-    margin-top: 20px;
+    margin: 1em 0;
+    list-style-position: inside;
   }
 hr {
-height: 2px;
-background-color: black;
-border-color: black;
+    height: 2px;
+    background-color: black;
+    border-color: black;
 }
